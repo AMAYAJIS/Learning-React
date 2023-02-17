@@ -1,0 +1,43 @@
+
+.common_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    width:800px;
+    padding: 0.5rem;
+    margin: 1rem 1rem 0rem 15rem;
+    border-radius: 12px;
+    background-color: #4b4b4b;
+}
+
+
+.item_description{
+    display: flex;
+    flex-direction: row;
+    /* gap: 1rem; */
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex: 1;
+    background-color: #4b4b4b; 
+
+}
+.item_description h2{
+    background-color: #4b4b4b; 
+    font-size: 1rem;
+    flex: 1;
+    margin: 0.5rem 5rem;
+    
+    color: white;
+}
+.item_price{
+    font-weight: bold;
+    font-size: 1rem;    
+    color: white;
+    background-color: #40005d;
+    align-items: center;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+
+}
